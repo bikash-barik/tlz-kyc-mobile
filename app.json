@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "TLZ",
+    "slug": "TLZ",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tcs.tlz",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tcs.tlz",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "A cross-platform iOS and Android app for accepting Stripe payments with liveness detection and facial recognition. Written for TCS Paceport Retail Applications using React Native, Expo, Stripe, and AWS Rekognition",
+    "githubUrl": "https://github.com/rdtaylorjr/TLZ.git",
+    "extra": {
+      "eas": {
+        "projectId": "307663b9-cf57-47be-a7fd-9d7cdf09bd41"
+      }
+    },
+    "owner": "bikash123"
+  }
+}
