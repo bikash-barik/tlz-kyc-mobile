@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "TLZ",
-    "slug": "TLZ",
+    "name": "tlz",
+    "slug": "tlz",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -38,7 +38,7 @@
       "favicon": "./assets/favicon.png"
     },
     "description": "A cross-platform iOS and Android app for accepting Stripe payments with liveness detection and facial recognition. Written for TCS Paceport Retail Applications using React Native, Expo, Stripe, and AWS Rekognition",
-    "githubUrl": "https://github.com/rdtaylorjr/TLZ.git",
+    "githubUrl": "https://github.com/bikash-barik/tlz-kyc-mobile.git",
     "extra": {
       "eas": {
         "projectId": "307663b9-cf57-47be-a7fd-9d7cdf09bd41"
